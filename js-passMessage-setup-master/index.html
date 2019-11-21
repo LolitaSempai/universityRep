@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS Pass The Message</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row max-height align-items-center">
+        <div class="col-10 mx-auto col-md-8 message-container text-center p-3">
+            <h4 class="text-capitalize">a message you would like to pass</h4>
+            <form id="message-form">
+                <input type="text" id="message" class="w-100 my-3 p-2" name="">
+                <input type="submit" id="submitBtn" class="btn btn-lg">
+                <h5 class="text-capitalize p-2 alert alert-danger my-3 feedback">please enter value to pass</h5>
+                <h4 class="text-capitalize my-3"> last message delivered</h4>
+                <h4 class="message-content text-uppercase"> hello world</h4>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/draft.js"></script>
+</body>
+</html>
